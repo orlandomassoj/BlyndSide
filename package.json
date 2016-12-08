@@ -1,0 +1,40 @@
+{
+  "name": "blyndside",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orlandomassoj/BlyndSide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orlandomassoj/BlyndSide/issues"
+  },
+  "homepage": "https://github.com/orlandomassoj/BlyndSide#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-changed": "^1.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-watch": "^4.3.11"
+  },
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "bootstrap-sass": "^3.3.7",
+    "fittext": "^1.0.1",
+    "font-awesome": "^4.7.0",
+    "gulp-sass": "^2.3.2",
+    "jquery": "^3.1.1",
+    "normalize.css": "^5.0.0",
+    "pagepiling.js": "^1.5.3"
+  }
+}
