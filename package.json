@@ -23,9 +23,11 @@
     "gulp-changed": "^1.3.2",
     "gulp-concat": "^2.6.1",
     "gulp-cssnano": "^2.1.2",
+    "gulp-jshint": "^2.0.4",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^2.0.0",
-    "gulp-watch": "^4.3.11"
+    "gulp-watch": "^4.3.11",
+    "jshint-stylish": "^2.2.1"
   },
   "dependencies": {
     "animate.css": "^3.5.2",
@@ -33,6 +35,7 @@
     "fittext": "^1.0.1",
     "font-awesome": "^4.7.0",
     "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.9.1",
     "jquery": "^3.1.1",
     "normalize.css": "^5.0.0",
     "pagepiling.js": "^1.5.3"
