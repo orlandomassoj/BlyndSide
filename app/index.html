@@ -1,44 +1,243 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
-  <head>
-
+<head>
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="app/assets/img/favicon.ico">
 
-    <!-- The above meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Fonts -->
 
-    <title></title>
+    <script src="https://use.fontawesome.com/51dcc25ffb.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,400" rel="stylesheet">
 
-    <!-- Bootstrap core CSS -->
+    <!-- Stylesheets -->
 
-    <link href="" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/jquery.pagepiling.css">
+</head>
 
-    <!-- Core Sass -->
+<body>
 
-    <link href="" rel="stylesheet">
-    <link href=""  rel="stylesheet">
+<div id="pagepiling">
 
-  </head>
+  <div class="pp-section" id="landing">
+    <h2 class="headline">blyndside media</h2>
+    <img src="assets/img/blyndside-mockup.png" alt="blyndside" class="blynd-mock">
+    <h3 class="description">The One Stop Creative Agency</h3>
+    <a href="#"><i class="fa fa-angle-down fa-3x" id="arrow"></i></a>
+  </div>
 
-  <body>
-    <header>
+  <div class="pp-section" id="web">
+    <img src="assets/img/dominionmockup.png" alt="mockup" class="dominion">
+    <div class="container">
+        <div class="row" id="row-web">
+            <div class="col-lg-6">
+
+            </div>
+            <div class="col-md-6">
+                <h2 class="headline-web">web design</h2>
+
+                <div class="text-wrapper">
+
+                    <p id="margin-fix"><img src="assets/icons/checkmark.png" alt="check" class="checkmark">A custom-designed web page for </p>
+                    <p class="over">as low as $899 USD</p>
+                </div>
+                <div class="text-wrapper">
+
+                    <p><img src="assets/icons/checkmark.png" alt="check" class="checkmark">Work directly with the designer</p>
+                </div>
+                <div class="text-wrapper">
+
+                    <p><img src="assets/icons/checkmark.png" alt="check" class="checkmark">Complete control over features</p>
+                </div>
+
+                  <a href="#"><button class="start-btn">get started now</button></a>
+
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="pp-section" id="customers">
+    <h2 class="headline-customers">our customers</h2>
+    <figure class="card-templet "><img src="assets/img/loso.png" alt="loso"/>
+      <figcaption>
+          <h3>LoSo</h3>
+          <p>Responsive App Landing Page</p>
+      </figcaption><i class="ion-forward"></i>
+      <a href="#"></a>
+    </figure>
+    <figure class="card-templet "><img src="assets/img/favicon.ico" alt="loso"/>
+      <figcaption>
+          <h3>LoSo</h3>
+          <p>Responsive App Landing Page</p>
+      </figcaption><i class="ion-forward"></i>
+      <a href="#"></a>
+    </figure>
 
 
+  </div>
+
+  <div class="pp-section" id="how">
+    <div class="container">
+      <div class="row" id="row-text">
+        <div class="col-md-12" id="how-container">
+          <h2 class="headline-how">how it works</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12" id="row-image">
+          <img src="assets/img/second-mac.png" alt="mockup" class="second-mac">
+        </div>
+      </div>
+      <div class="row" id="row-how">
+        <div class="col-md-12">
+          <div class="blurb-wrapper">
+              <p class="orange">1. Tell us what you want.</p>
+              <img src="assets/icons/pencil.png" alt="pencil" class="how-icon">
+          </div>
+          <div class="blurb-wrapper">
+              <p class="green">2. Approve your design.</p>
+              <img src="assets/icons/yes.png" alt="approve" class="how-icon">
+          </div>
+          <div class="blurb-wrapper">
+              <p class="purple">3. We finalize and upload.</p>
+              <img src="assets/icons/upload.png" alt="upload" class="how-icon">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pp-section" id="pricing">
+    <h2 class="headline-pricing">pricing</h2>
+    <p class="text-pricing">Choose the best package for your business</p>
+    <div class="conatiner">
+      <div class="row">
+        <div class="border-bronze" id="pack-price">
+          <h4 class="pack-price bronze">bronze</h4>
+          <p class="bronze">Simple</p>
+          <p class="bronze">Powerful</p>
+          <p class="bronze">Budget-friendly</p>
+          <p class="price bronze">US$999</p>
+        </div>
+        <div class="border-silver" id="pack-price">
+          <h4 class="pack-price silver">silver</h4>
+          <p class="silver">Powerful</p>
+          <p class="silver">Interactive</p>
+          <p class="silver">Startup-worthy</p>
+          <p class="price silver">US$1299</p>
+        </div>
+        <div class="border-gold" id="pack-price">
+          <h4 class="pack-price gold">gold</h4>
+          <p class="gold">Enterprise-ready</p>
+          <p class="gold">Databases</p>
+          <p class="gold">Stable</p>
+          <p class="price gold">US$2099</p>
+        </div>
+        <div class="border-platinum" id="pack-price">
+          <h4 class="pack-price platinum">platinum</h4>
+          <p class="platinum">Corporate-level</p>
+          <p class="platinum">Server-integrated</p>
+          <p class="platinum">Encrypted</p>
+          <p class="price platinum">US$TBD</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pp-section" id="services">
+    <div class="row">
+      <div class="column">
+        <div class="bordered-tile">
+          <div class="tile-nested">
+            <div class="item">
+              <a href="#">
+                <div class="icon-space">
+                  <div class="icon"></div>
+                  </div>
+                  <span class="label"></span>
+                <div class="sticker"></div>
+              </a>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="double-tile">
+          <a href="#">
+            <div class="icon-space-double">
+              <div class="icon"></div>
+            </div>
+            <span class="double-label"></span>
+            <div class="sticker">
+              <div class="sticker-content">
+                <span class="inner-content">
+                  <span class="star"></span>
+                  <span>Most Popular</span>
+                </span>
+              </div>
+            </div>
+            <p class="logo-pack-description">The essentials to build your brand.</p>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="pp-section" id="contact">
+    <h2 class="headline-contact">contact</h2>
+    <div class="contact-wrapper">
+      <p class="phone-number"><img src="assets/icons/white-phone-512.png" alt="phone">1-800-999-9999</p>
+    </div>
+    <div class="contact-wrapper">
+      <a href="#"><p><img class="mail" src="assets/icons/white-mail.png" alt="mail">Hello@blyndsidemedia.com</p></a>
+    </div>
+    <div class="contact-wrapper">
+      <a href="#"><p><img src="assets/icons/insta.png" alt="instagram">@blyndsidemedia</p></a>
+    </div>
+    <div class="contact-wrapper bottom-fb">
+      <a href="#"><p><img src="assets/icons/fb-white.png" alt="facebook">fb.com/blyndsidemedia</p></a>
+    </div>
+    <div class="footer">
+
+      <ul class="footer-nav">
+        <hr class="break">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Back to top</a></li>
+      </ul>
+      <a href="#"><img class="footer-logo" src="assets/img/BlyndSIde-Media-Logo.png" alt="blyndside"></a>
+      <div class="bottom">
+        <ul>
+          <li><p class="light-grey">BlyndSide Media &copy 2016</p></li>
+          <li><a class="light-grey" href="#">Terms</a></li>
+          <li><a class="light-grey" href="#">Privacy</a></li>
+          <li><a class="light-grey" href="#">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>
 
 
-    </header>
-    <!-- core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/functions.js" type="text/javascript"></script>
-    <script src="js/jquery.min.js" type="text/javascript"></script>
-    <script src="js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="js/jquery.pagepiling.min.js" type="text/javascript"></script>
-    <script src="js/jquery.fittext.js" type="text/javascript"></script>
-  </body>
+<!-- Scripts Inject -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+<script src="js/jquery.pagepiling.js" type="text/javascript"></script>
+<script src="js/functions.js" type="text/javascript"></script>
+
+</body>
 
 </html>
