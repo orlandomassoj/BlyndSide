@@ -36,7 +36,7 @@ gulp.task('watch', function() {
   });
 
     // If a file changes, re-run 'sass'
-  gulp.watch('./app/sass/*.sass', ['sass'], function() {
+  gulp.watch('./app/sass/pages/*.sass', ['sass'], function() {
     browserSync.reload();
   });
   gulp.watch('./app/index.html', function() {

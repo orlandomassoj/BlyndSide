@@ -18,21 +18,32 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
     <link rel="stylesheet" href="css/jquery.pagepiling.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 </head>
 
 <body>
-
+ <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+</div>
 <div id="pagepiling">
 
-  <div class="pp-section" id="landing">
-    <h2 class="headline">blyndside media</h2>
-    <img src="assets/img/blyndside-mockup.png" alt="blyndside" class="blynd-mock">
-    <h3 class="description">The One Stop Creative Agency</h3>
-    <a href="#"><i class="fa fa-angle-down fa-3x" id="arrow"></i></a>
-  </div>
+  <div data-menuanchor="Home" class="pp-section" id="landing">
+    <div class="container">
+        <div class="row row-home">
+            <div class="col-md-12 col-home">
+                <h2 class="headline animated fadeInUp">blyndside media</h2>
+                <img src="assets/img/blyndside-mockup1.png" alt="blyndside" class="blynd-mock animated fadeInUp" id="blynd-mockup">
+                <h3 class="description animated fadeInUp">The One Stop Creative Agency</h3>
+                <a href="#"><i class="fa fa-angle-down fa-3x" id="arrow"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
 
-  <div class="pp-section" id="web">
-    <img src="assets/img/dominionmockup.png" alt="mockup" class="dominion">
+  <div data-menuanchor="Design" class="pp-section" id="web">
+    <img id="dominion" src="assets/img/dominionmockup.png" alt="mockup" class="dominion">
     <div class="container">
         <div class="row" id="row-web">
             <div class="col-lg-6">
@@ -55,14 +66,14 @@
                     <p><img src="assets/icons/checkmark.png" alt="check" class="checkmark">Complete control over features</p>
                 </div>
 
-                  <a href="#"><button class="start-btn">get started now</button></a>
+                  <a href="#"><button class="start-btn" id="start-btn">get started now</button></a>
 
             </div>
         </div>
     </div>
   </div>
 
-  <div class="pp-section" id="customers">
+  <div data-menuanchor="Customers" class="pp-section" id="customers">
     <h2 class="headline-customers">our customers</h2>
     <figure class="card-templet "><img src="assets/img/loso.png" alt="loso"/>
       <figcaption>
@@ -86,27 +97,27 @@
     <div class="container">
       <div class="row" id="row-text">
         <div class="col-md-12" id="how-container">
-          <h2 class="headline-how">how it works</h2>
+          <h2 class="headline-how" id="headline-how">how it works</h2>
         </div>
       </div>
       <div class="row">
         <div class="col-md-12" id="row-image">
-          <img src="assets/img/second-mac.png" alt="mockup" class="second-mac">
+          <img src="assets/img/second-mac.png" alt="mockup" class="second-mac" id="how-mac">
         </div>
       </div>
       <div class="row" id="row-how">
         <div class="col-md-12">
           <div class="blurb-wrapper">
-              <p class="orange">1. Tell us what you want.</p>
-              <img src="assets/icons/pencil.png" alt="pencil" class="how-icon">
+              <p class="orange" id="orange">1. Tell us what you want.</p>
+              <img src="assets/icons/pencil.png" alt="pencil" class="how-icon" id="orange">
           </div>
           <div class="blurb-wrapper">
-              <p class="green">2. Approve your design.</p>
-              <img src="assets/icons/yes.png" alt="approve" class="how-icon">
+              <p class="green" id="green">2. Approve your design.</p>
+              <img src="assets/icons/yes.png" alt="approve" class="how-icon" id="green">
           </div>
           <div class="blurb-wrapper">
-              <p class="purple">3. We finalize and upload.</p>
-              <img src="assets/icons/upload.png" alt="upload" class="how-icon">
+              <p class="purple" id="purple">3. We finalize and upload.</p>
+              <img src="assets/icons/upload.png" alt="upload" class="how-icon" id="purple">
           </div>
         </div>
       </div>
