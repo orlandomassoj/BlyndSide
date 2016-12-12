@@ -26,6 +26,7 @@ $(document).ready(function() {
         //events
 
         //afterLoad: function(anchorLink, index){
+
         onLeave: function(index, nextIndex, direction) {
         //Design Animation
         if(index == 1, nextIndex == 2, direction == 'down'){
@@ -55,11 +56,64 @@ $(document).ready(function() {
             $("#how-mac").removeClass('animated fadeInUp');
         }
         if(index == 3, nextIndex == 4, direction == 'down'){
-            $("#orange").addClass('animated fadeInUp');
+            $("#blurb").addClass('animated fadeInUp');
         }else{
-            $("#orange").removeClass('animated fadeInUp');
+            $("#blurb").removeClass('animated fadeInUp');
         }
-    }
+        if(index == 3, nextIndex == 4, direction == 'down'){
+            $("#blurb2").addClass('animated fadeInUp');
+        }else{
+            $("#blurb2").removeClass('animated fadeInUp');
+        }
+        if(index == 3, nextIndex == 4, direction == 'down'){
+            $("#blurb3").addClass('animated fadeInUp');
+        }else{
+            $("#blurb3").removeClass('animated fadeInUp');
+        }
+        //Pricing animations
+        if(index == 4, nextIndex == 5, direction == 'down'){
+            $("#headline-pricing").addClass('animated fadeInUp');
+        }else{
+            $("#headline-pricing").removeClass('animated fadeInUp');
+        }
+        if(index == 4, nextIndex == 5, direction == 'down'){
+            $("#text-pricing").addClass('animated fadeInUp');
+        }else{
+            $("#text-pricing").removeClass('animated fadeInUp');
+        }
+        if(index == 4, nextIndex == 5, direction == 'down'){
+            $(".border-bronze").addClass('animated fadeInUp');
+        }else{
+            $(".border-bronze").removeClass('animated fadeInUp');
+        }
+        if(index == 4, nextIndex == 5, direction == 'down'){
+            $(".border-silver").addClass('animated fadeInUp');
+        }else{
+            $(".border-silver").removeClass('animated fadeInUp');
+        }
+        if(index == 4, nextIndex == 5, direction == 'down'){
+            $(".border-gold").addClass('animated fadeInUp');
+        }else{
+            $(".border-gold").removeClass('animated fadeInUp');
+        }
+        if(index == 4, nextIndex == 5, direction == 'down'){
+            $(".border-platinum").addClass('animated fadeInUp');
+        }else{
+            $(".border-platinum").removeClass('animated fadeInUp');
+        }
+        //customers animations
+        if(index == 2, nextIndex == 3, direction == 'down'){
+            $("#headline-customers").addClass('animated fadeInUp');
+        }else{
+            $("#headline-customers").removeClass('animated fadeInUp');
+        }
+        if(index == 2, nextIndex == 3, direction == 'down'){
+            $("#customers-container").addClass('animated fadeInUp');
+        }else{
+            $("#customers-container").removeClass('animated fadeInUp');
+        }
+      }
+
         //afterRender: function() {},
     });
     setTimeout(function() {
