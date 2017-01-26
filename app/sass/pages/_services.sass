@@ -6,35 +6,44 @@
   text-transform: uppercase
   text-align: center
   padding-top: 3%
-
+  animation-delay: 0.3s
 .services-row
-  position: absolute
+  position: relative
+
   left: 0
   right: 0
   margin: 0 auto
   background: black
-  top: 30%
-
+  //top: 30%
+#services-container
+  padding-top: 8%
+  animation-delay: 0.8s
 .bordered-tile
   width: 200px
   height: 200px
   background: white
   float: left
   width: 25%
+  position: relative
+  z-index: 300
 
   &:hover
     transform: scale(1.1)
     transition: all 0.3s ease-in
     box-shadow: 0 0 3px 2px #999
     border: none
-
+    z-index: 305
 .double-tile
   width: 200px
   height: 200px
   float: left
   width: 25%
   background: white
+  position: relative
+  z-index: 1
 
+  &:hover
+    z-index: 305
 .icon
   display: inline-block
   text-align: center
@@ -99,13 +108,16 @@
   height: 400px
   background: white
   position: relative
-  z-index: 3
+  z-index: 605
 
   &:hover
     transform: scale(1.1)
     transition: all 0.3s ease-in
     box-shadow: 0 0 3px #333
     border: none
+    z-index: 605
+    a
+      text-decoration: none
 
 .icon-space-double
   height: 400px
